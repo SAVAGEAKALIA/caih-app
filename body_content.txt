@@ -1,0 +1,458 @@
+﻿
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-brand">
+    <img src="LOGO_BASE64_PLACEHOLDER" alt="CAIH Logo" class="nav-logo">
+    <div class="nav-name">CAIH <span>Centre for Achieving Integrated Healthcare</span></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#programmes">Programmes</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#" class="nav-cta" onclick="openPartner(event)">Partner With Us</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-content">
+      <img src="LOGO_BASE64_PLACEHOLDER" alt="CAIH" class="hero-logo">
+      <div class="hero-formerly">
+        <span>Formerly known as &nbsp;</span><strong>Irene International Relief Foundation</strong>
+      </div>
+      <div class="hero-tag">
+        <div class="hero-tag-dot"></div>
+        <span>Registered NGO &nbsp;Â·&nbsp; Southeast Nigeria &nbsp;Â·&nbsp; Est. 2024</span>
+      </div>
+      <h1>Achieving Health<br>for <em>Every Community</em></h1>
+      <p class="hero-sub">An integrated community health organisation delivering HIV prevention, NCD screening, maternal care, and health systems strengthening across Southeast Nigeria â€” where no community is too remote and no person left behind.</p>
+      <div class="hero-actions">
+        <a href="#programmes" class="btn btn-primary">Our Programmes</a>
+        <a href="#" class="btn btn-outline" onclick="openPartner(event)">Partner With Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stats-inner">
+      <div class="hero-stat">
+        <div class="hero-stat-val">&gt;100<span>%</span></div>
+        <div class="hero-stat-lbl">HIV Case Finding Increase<br>Awka North LGA</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">94<span>%</span></div>
+        <div class="hero-stat-lbl">ART Retention Rate<br>Hard-to-Reach Communities</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">3</div>
+        <div class="hero-stat-lbl">International Research<br>Abstracts Accepted</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-val">6<span>+</span></div>
+        <div class="hero-stat-lbl">Years Global Fund<br>Implementation Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text fade-up">
+        <div class="label label--gold">About CAIH</div>
+        <h2>New Structure.<br><em>Proven Experience.</em></h2>
+        <div class="formerly-box">
+          <p><strong>Formerly Irene International Relief Foundation</strong> â€” renamed to Centre for Achieving Integrated Healthcare (CAIH) on 14th October 2024. Our mission, our community networks, and our commitment to Southeast Nigeria remain unchanged.</p>
+        </div>
+        <p>CAIH is a registered Nigerian NGO headquartered in Ewet Housing Estate, Uyo, Akwa Ibom State, implementing integrated community health programmes across Southeast Nigeria. We combine HIV prevention, non-communicable disease management, maternal and child health, and health systems strengthening into a single, efficient, community-embedded model.</p>
+        <p>Our founder brings over 20 years of progressive public health experience, including 6 years of direct Global Fund programme implementation in Anambra State â€” leading multi-disciplinary cross-sectional teams to achieve results accepted by three international research conferences.</p>
+        <div class="about-highlight">
+          <p><strong>Current PhD Research:</strong> <em>"Prevalence and Determinants of Common Non-Communicable Diseases: A Comparative Study of HIV-Positive and HIV-Negative Adults in Anambra State, Nigeria"</em> â€” University of Port Harcourt, School of Public Health.</p>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="mvv-grid fade-up">
+          <div class="mvv-card mvv-card--mission">
+            <div class="mvv-label">Mission</div>
+            <h3>Our Mission</h3>
+            <p>To improve health outcomes by delivering integrated, evidence-based community health programs that are accessible, affordable and sustainable for every population â€” especially those hardest to reach.</p>
+          </div>
+          <div class="mvv-card mvv-card--vision">
+            <div class="mvv-label">Vision</div>
+            <h3>Our Vision</h3>
+            <p>To be the leading community-embedded integrated health organization in Nigeria where no community is too remote, no condition too neglected and no person is left behind.</p>
+          </div>
+          <div class="mvv-card mvv-card--values">
+            <div class="mvv-label">Values</div>
+            <h3>Our Values</h3>
+            <div class="values-list">
+              <span>Evidence-Driven</span>
+              <span>Community-First</span>
+              <span>Accountable</span>
+              <span>Inclusive</span>
+              <span>Sustainable</span>
+              <span>Collaborative</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMMES -->
+<section class="programmes" id="programmes">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="label label--gold">What We Do</div>
+      <h2>Integrated Programme Areas</h2>
+      <p>Four interconnected health areas delivered simultaneously â€” because the most vulnerable communities face overlapping challenges that single-disease programmes cannot solve.</p>
+    </div>
+    <div class="prog-grid">
+      <div class="prog-card fade-up">
+        <div class="prog-icon" style="background:#fdf0f7">ðŸ¦ </div>
+        <div class="label">Programme 01</div>
+        <h3>HIV/AIDS Prevention &amp; Care</h3>
+        <p>Camp-based community HIV testing using our proven PHC-integrated screening model. ART retention through differentiated service delivery, PrEP scale-up, PMTCT strengthening, and key population outreach.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">Case Finding</span>
+          <span class="prog-tag">ART Retention</span>
+          <span class="prog-tag">PrEP</span>
+          <span class="prog-tag">PMTCT</span>
+          <span class="prog-tag">Key Populations</span>
+        </div>
+      </div>
+      <div class="prog-card fade-up">
+        <div class="prog-icon" style="background:#fdf6e3">â¤ï¸</div>
+        <div class="label">Programme 02</div>
+        <h3>NCD Screening &amp; Integrated Care</h3>
+        <p>Community NCD camps for hypertension, diabetes, and cardiovascular risk screening. Treatment linkage, integrated HIV-NCD care, and community health education informed by active PhD research.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">Hypertension</span>
+          <span class="prog-tag">Diabetes</span>
+          <span class="prog-tag">Screening</span>
+          <span class="prog-tag">HIV-NCD Link</span>
+        </div>
+      </div>
+      <div class="prog-card fade-up">
+        <div class="prog-icon" style="background:#fdf6e3">ðŸ‘¶</div>
+        <div class="label">Programme 03</div>
+        <h3>Maternal &amp; Child Health</h3>
+        <p>Antenatal supplementation, ORS and zinc distribution, Vitamin A during MNCHW campaigns, safe motherhood referral through TBA networks, and HIV-exposed infant prophylaxis support.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">Antenatal Care</span>
+          <span class="prog-tag">TBA Networks</span>
+          <span class="prog-tag">Child Nutrition</span>
+          <span class="prog-tag">PMTCT</span>
+        </div>
+      </div>
+      <div class="prog-card fade-up">
+        <div class="prog-icon" style="background:#f0e8f8">ðŸ¥</div>
+        <div class="label">Programme 04</div>
+        <h3>Health Systems Strengthening</h3>
+        <p>Capacity building of PHC staff, PPMVs, CHEWs, and community volunteers. Community Health Agent network across 21 LGAs. Multi-stakeholder coordination and health information platform.</p>
+        <div class="prog-tags">
+          <span class="prog-tag">Training</span>
+          <span class="prog-tag">CHAs</span>
+          <span class="prog-tag">PHC Integration</span>
+          <span class="prog-tag">RSSH</span>
+        </div>
+      </div>
+      <div class="prog-card fade-up" style="background:var(--deep);border-color:var(--deep)">
+        <div class="prog-icon" style="background:rgba(255,255,255,0.1)">ðŸŒ</div>
+        <div class="label" style="color:rgba(255,255,255,0.5)">Our Geography</div>
+        <h3 style="color:white">Southeast Nigeria</h3>
+        <p style="color:rgba(255,255,255,0.7)">Priority: Awka North, Awka South, Oyi, and Njikoka LGAs â€” with established community networks scaling to all 21 LGAs and across Southeast Nigeria.</p>
+        <div class="prog-tags">
+          <span class="prog-tag" style="border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.6)">Awka North</span>
+          <span class="prog-tag" style="border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.6)">Awka South</span>
+          <span class="prog-tag" style="border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.6)">Oyi LGA</span>
+          <span class="prog-tag" style="border-color:rgba(255,255,255,0.2);color:rgba(255,255,255,0.6)">Njikoka</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="research" id="research">
+  <div class="container">
+    <div class="research-inner">
+      <div class="research-text fade-up">
+        <div class="label label--light">Evidence &amp; Research</div>
+        <h2>Implementation That <em>Generates Evidence</em></h2>
+        <p>CAIH generates peer-reviewed evidence from its own field work. Three research abstracts from implementation work in Anambra State have been accepted by leading global health conferences.</p>
+        <p>Our Executive Director is a current PhD candidate at the School of Public Health, University of Port Harcourt â€” ensuring every CAIH programme is continuously informed by the latest evidence.</p>
+        <a href="#contact" class="btn btn-outline" style="margin-top:16px">Collaborate on Research</a>
+      </div>
+      <div class="abstract-list fade-up">
+        <div class="abstract-item">
+          <div class="abstract-badge">International AIDS Society (IAS) Â· Accepted</div>
+          <div class="abstract-title">Optimizing HIV Case Finding Through PHC Integration and Camp-Based Multi-Disease Screening in Hard-to-Reach Communities of Awka North LGA, Anambra State</div>
+        </div>
+        <div class="abstract-item">
+          <div class="abstract-badge">Interest Conference Â· Accepted</div>
+          <div class="abstract-title">Strengthening PHC and Community Structures to Improve ART Retention and Reduce HIV-Related Mortality in Remote Communities in Awka North, Anambra State</div>
+        </div>
+        <div class="abstract-item">
+          <div class="abstract-badge">ICASA Â· Accepted</div>
+          <div class="abstract-title">Identifying Implementation Gaps in HIV Pre-Exposure Prophylaxis Scale-Up in Anambra, South-East Region of Nigeria</div>
+        </div>
+        <div class="abstract-item" style="border-left-color:var(--xgold)">
+          <div class="abstract-badge" style="color:var(--xgold)">PhD Research Â· University of Port Harcourt Â· Current</div>
+          <div class="abstract-title">Prevalence and Determinants of Common Non-Communicable Diseases: A Comparative Study of HIV-Positive and HIV-Negative Adults in Anambra State, Nigeria</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="impact" id="impact">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="label label--gold">Our Results</div>
+      <h2>Verified Field Impact</h2>
+      <p>Results achieved while leading multi-disciplinary cross-sectional teams within Global Fund programme frameworks in Anambra State.</p>
+    </div>
+    <div class="impact-grid fade-up">
+      <div class="impact-cell">
+        <div class="impact-val">&gt;100%</div>
+        <div class="impact-lbl">HIV case finding increase in 60 days â€” Awka North LGA, NAHI Grant</div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-val">94%</div>
+        <div class="impact-lbl">ART retention rate achieved in hard-to-reach communities</div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-val">4,850+</div>
+        <div class="impact-lbl">HIV-positive clients under ART support across two major sites</div>
+      </div>
+      <div class="impact-cell">
+        <div class="impact-val">41â†’82%</div>
+        <div class="impact-lbl">PMTCT uptake improvement within a single programme cycle</div>
+      </div>
+    </div>
+    <p class="impact-note fade-up">Results generated within AHNI's Global Fund programme structure across NAHI and GC7 grant cycles in Anambra and Akwa Ibom States.</p>
+  </div>
+</section>
+
+<!-- PARTNER -->
+<section class="partner" id="partner">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="label label--gold">Get Involved</div>
+      <h2>Support CAIH's Work</h2>
+      <p>Whether you are a donor, a research partner, or a government agency â€” there is a place for you in CAIH's mission across Southeast Nigeria.</p>
+    </div>
+    <div class="partner-grid">
+      <div class="partner-card partner-card--donate fade-up">
+        <div class="label label--light">Donate</div>
+        <h3>Fund Community Health</h3>
+        <p>Your support directly funds community health camps, Community Health Agent stipends, essential medicine distribution, and provider training across Southeast Nigeria.</p>
+        <div class="partner-options">
+          <div class="partner-option">Fund one community health camp â€” reaching 200 people</div>
+          <div class="partner-option">Sponsor a Community Health Agent for one year</div>
+          <div class="partner-option">Fund HIV self-test kits for 100 community members</div>
+          <div class="partner-option">Support NCD screening equipment for one LGA</div>
+        </div>
+        <button class="btn btn-primary" onclick="openDonate(event)" style="width:100%;justify-content:center">Make a Donation</button>
+        <div class="bank-details">
+          <div class="label" style="margin-bottom:10px;color:var(--muted)">Bank Transfer Details</div>
+          <div class="bank-row"><span class="key">Account Name</span><span class="val">Centre for Achieving Integrated Healthcare</span></div>
+          <div class="bank-row"><span class="key">Bank</span><span class="val">[Your Bank Name]</span></div>
+          <div class="bank-row"><span class="key">Account No.</span><span class="val">[Your Account Number]</span></div>
+          <div class="bank-row"><span class="key">Contact After Transfer</span><span class="val">chidimairene@gmail.com</span></div>
+        </div>
+      </div>
+      <div class="partner-card partner-card--collab fade-up">
+        <div class="label label--gold">Partner</div>
+        <h3>Collaborate With Us</h3>
+        <p>CAIH welcomes implementing partnerships, research collaborations, government programme integration, and donor funding partnerships across Southeast Nigeria.</p>
+        <div class="collab-tags">
+          <span class="collab-tag">Donor / Funder</span>
+          <span class="collab-tag">Research Partner</span>
+          <span class="collab-tag">Government Agency</span>
+          <span class="collab-tag">Global Fund PR / SR</span>
+          <span class="collab-tag">NGO Network</span>
+          <span class="collab-tag">Academic Institution</span>
+        </div>
+        <button class="btn" onclick="openPartner(event)" style="background:var(--deep);color:white;width:100%;justify-content:center">Become a Partner</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="label label--gold">Contact</div>
+        <h2>Get in Touch With CAIH</h2>
+        <p>We welcome enquiries from donors, government partners, research institutions, implementing organisations, and community stakeholders across Southeast Nigeria and beyond.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">ðŸ“</div>
+            <div class="contact-item-text">
+              <div class="contact-item-label">Headquarters</div>
+              <div class="contact-item-val">Ewet Housing Estate, Uyo<br>Akwa Ibom State, Nigeria</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">ðŸŒ</div>
+            <div class="contact-item-text">
+              <div class="contact-item-label">Implementation Area</div>
+              <div class="contact-item-val">Southeast Nigeria</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">ðŸ“ž</div>
+            <div class="contact-item-text">
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-val">+234 802 579 9448<br>+234 906 753 9509</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">âœ‰ï¸</div>
+            <div class="contact-item-text">
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-val">chidimairene@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">ðŸ‘¤</div>
+            <div class="contact-item-text">
+              <div class="contact-item-label">Executive Director</div>
+              <div class="contact-item-val">Chidinma Irene Onyeibor<br><span style="font-size:13px;color:var(--muted);font-weight:400">PhD Candidate Â· MSc Â· B.Pharm Â· PSN</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form fade-up">
+        <h3>Send us a Message</h3>
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Your full name">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label>I am a...</label>
+          <select>
+            <option value="">Select your category</option>
+            <option>Donor / Funder</option>
+            <option>Government Agency</option>
+            <option>Research / Academic Partner</option>
+            <option>Implementing Organisation / NGO</option>
+            <option>Global Fund Principal Recipient</option>
+            <option>Community Member</option>
+            <option>Media / Press</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell us how you would like to work with CAIH..."></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm(event)">Send Message</button>
+        <p class="form-note">We respond within 48 hours on business days.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="LOGO_BASE64_PLACEHOLDER" alt="CAIH Logo" class="footer-logo">
+        <div class="footer-brand-name">Centre for Achieving Integrated Healthcare</div>
+        <div class="footer-formerly">Formerly Irene International Relief Foundation</div>
+        <div class="footer-brand-tag">CAIH Â· Registered NGO Â· Est. 2024 Â· Southeast Nigeria</div>
+        <p class="footer-desc">An integrated community health organisation delivering HIV prevention, NCD screening, maternal and child health, and health systems strengthening across Southeast Nigeria.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Programmes</h4>
+        <ul>
+          <li><a href="#programmes">HIV/AIDS Prevention &amp; Care</a></li>
+          <li><a href="#programmes">NCD Screening</a></li>
+          <li><a href="#programmes">Maternal &amp; Child Health</a></li>
+          <li><a href="#programmes">Health Systems</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Organisation</h4>
+        <ul>
+          <li><a href="#about">About CAIH</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#impact">Our Impact</a></li>
+          <li><a href="#partner">Partner With Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">Â© 2024â€“2026 Centre for Achieving Integrated Healthcare (CAIH). All rights reserved.</div>
+      <div class="footer-reg">Registered NGO Â· Corporate Affairs Commission Â· Nigeria</div>
+    </div>
+  </div>
+</footer>
+
+<!-- PARTNER MODAL -->
+<div class="modal-overlay" id="partnerModal" onclick="closeModal('partnerModal',event)">
+  <div class="modal">
+    <button class="modal-close" onclick="document.getElementById('partnerModal').classList.remove('open')">Ã—</button>
+    <div class="label label--gold">Collaborate</div>
+    <h3>Partner With CAIH</h3>
+    <p>We welcome implementing partnerships, research collaborations, government integration, and donor funding for our programmes across Southeast Nigeria.</p>
+    <div class="form-group"><label>Organisation Name</label><input type="text" placeholder="Your organisation"></div>
+    <div class="form-group">
+      <label>Partnership Type</label>
+      <select>
+        <option>Select partnership type</option>
+        <option>Donor / Grant Funder</option>
+        <option>Global Fund Principal Recipient (Sub-Recipient)</option>
+        <option>Research / Academic Collaboration</option>
+        <option>Government Programme Integration</option>
+        <option>NGO Network / Consortium</option>
+        <option>Technical Assistance Provider</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Contact Email</label><input type="email" placeholder="your@organisation.org"></div>
+    <div class="form-group"><label>Brief Description</label><textarea placeholder="Describe how you would like to collaborate with CAIH..." style="min-height:80px"></textarea></div>
+    <button class="form-submit" onclick="submitPartner(event)">Submit Enquiry</button>
+  </div>
+</div>
+
+<script>
+const observer=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
+function openDonate(e){e.preventDefault();document.getElementById('partnerModal').classList.add('open')}
+function openPartner(e){e.preventDefault();document.getElementById('partnerModal').classList.add('open')}
+function closeModal(id,e){if(e.target.id===id)document.getElementById(id).classList.remove('open')}
+function submitForm(e){e.preventDefault();alert('Thank you for your message! We will respond within 48 hours.\n\nEmail: chidimairene@gmail.com')}
+function submitPartner(e){e.preventDefault();document.getElementById('partnerModal').classList.remove('open');alert('Thank you for your partnership enquiry!\n\nThe CAIH team will be in touch within 48 hours.\nEmail: chidimairene@gmail.com')}
+function toggleMenu(){
+  const links=document.querySelector('.nav-links');
+  const isOpen=links.style.display==='flex';
+  links.style.display=isOpen?'none':'flex';
+  if(!isOpen){links.style.flexDirection='column';links.style.position='absolute';links.style.top='72px';links.style.left='0';links.style.right='0';links.style.background='white';links.style.padding='20px 32px';links.style.borderBottom='1px solid var(--rule)';links.style.boxShadow='0 4px 20px rgba(0,0,0,0.08)';}
+}
+window.addEventListener('scroll',()=>{
+  document.querySelector('nav').style.boxShadow=window.scrollY>20?'0 2px 20px rgba(0,0,0,0.06)':'none';
+});
+</script>
+
