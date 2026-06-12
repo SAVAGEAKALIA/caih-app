@@ -8,21 +8,21 @@ This application is built with a modern, high-performance tech stack using React
 
 ## 🚀 Key Features
 
-*   **Premium Design & Aesthetics:** Clean typography, glassmorphism accents, subtle micro-animations, and a cohesive color palette tailored around professional deep burgundy and gold colors.
-*   **Fully Responsive Layout:** Optimized from the ground up for desktop, tablet, and mobile devices (with specialized flex stacking to prevent overlapping stats).
-*   **Interactive Contact Form:** Built-in serverless form delivery using **Web3Forms** (submitting directly to the administrator's email) featuring modern, inline AJAX success/error feedback banners.
-*   **Programs & Research Showcases:** Detailed components displaying core health program areas, acceptances for international research abstracts, and localized key impact statistics.
-*   **Partner & Donation Modal:** Seamless interactive popups to facilitate sponsorships, partnerships, and direct contributions.
+* **Premium Design & Aesthetics:** Clean typography, glassmorphism accents, subtle micro-animations, and a cohesive color palette tailored around professional deep burgundy and gold colors.
+* **Fully Responsive Layout:** Optimized from the ground up for desktop, tablet, and mobile devices (with specialized flex stacking to prevent overlapping stats).
+* **Interactive Contact Form:** Built-in serverless form delivery using **Web3Forms** (submitting directly to the administrator's email) featuring modern, inline AJAX success/error feedback banners.
+* **Programs & Research Showcases:** Detailed components displaying core health program areas, acceptances for international research abstracts, and localized key impact statistics.
+* **Partner & Donation Modal:** Seamless interactive popups to facilitate sponsorships, partnerships, and direct contributions.
 
 ---
 
 ## 🛠️ Tech Stack
 
-*   **Core Framework:** [React v18](https://react.dev/)
-*   **Build Tool & Dev Server:** [Vite v5](https://vite.dev/)
-*   **Styling:** Vanilla CSS (theme-driven via CSS variables in [index.css](file:///wsl$/Ubuntu-22.04/home/saviour/antigravityprojects/caih-app/src/index.css))
-*   **Icons & Emojis:** Native Unicode/Emoji integration for instant loading without external icon package overhead
-*   **Email Forwarding Service:** [Web3Forms](https://web3forms.com/)
+* **Core Framework:** [React v18](https://react.dev/)
+* **Build Tool & Dev Server:** [Vite v5](https://vite.dev/)
+* **Styling:** Vanilla CSS (theme-driven via CSS variables in [index.css](file:///wsl$/Ubuntu-22.04/home/saviour/antigravityprojects/caih-app/src/index.css))
+* **Icons & Emojis:** Native Unicode/Emoji integration for instant loading without external icon package overhead
+* **Email Forwarding Service:** [Web3Forms](https://web3forms.com/)
 
 ---
 
@@ -31,13 +31,17 @@ This application is built with a modern, high-performance tech stack using React
 To run this project locally, ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### 1. Clone & Navigate
+
 Clone this repository to your local machine (or open the project directory in your terminal/WSL):
+
 ```bash
 cd ~/antigravityprojects/caih-app
 ```
 
 ### 2. Clean Installation (Crucial for WSL)
+
 If you previously installed dependencies from a Windows terminal inside a WSL directory, delete the existing node modules to fix execution permission errors:
+
 ```bash
 # Delete existing node_modules
 rm -rf node_modules
@@ -47,10 +51,13 @@ npm install
 ```
 
 ### 3. Start the Development Server
+
 Launch Vite's hot-reloading development server:
+
 ```bash
 npm run dev
 ```
+
 Once started, open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
@@ -58,6 +65,7 @@ Once started, open [http://localhost:5173](http://localhost:5173) in your browse
 ## 📦 Production Build
 
 To build the project for production (compiles and minifies assets for optimal loading speeds):
+
 ```bash
 npm run build
 ```
@@ -65,6 +73,7 @@ npm run build
 The output files will be generated in the `dist/` directory, ready to be deployed to static hosting providers (Netlify, Vercel, GitHub Pages, etc.).
 
 To preview your production build locally:
+
 ```bash
 npm run preview
 ```
@@ -90,4 +99,5 @@ caih-app/
 ---
 
 ## 🔒 Contact & Inquiries
-For further inquiries or partnerships, reach out directly via the contact form or send an email to **chidimairene@gmail.com**.
+
+For further inquiries or partnerships, reach out directly via the contact form or send an email to **<COnyeibor@caihng.org>**.

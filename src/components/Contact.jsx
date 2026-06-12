@@ -102,7 +102,7 @@ export default function Contact() {
                 <div className="contact-icon">✉️</div>
                 <div className="contact-item-text">
                   <div className="contact-item-label">Email</div>
-                  <div className="contact-item-val">chidimairene@gmail.com</div>
+                  <div className="contact-item-val">COnyeibor@caih-ng.org</div>
                 </div>
               </div>
               <div className="contact-item">
@@ -122,19 +122,19 @@ export default function Contact() {
           </div>
           <form className="contact-form fade-up" onSubmit={handleSubmit}>
             <h3>Send us a Message</h3>
-            
+
             {submitStatus === 'success' && (
               <div className="form-success-banner">
                 <span>✓</span> Message sent successfully! We will respond within 48 hours.
               </div>
             )}
-            
+
             {submitStatus === 'error' && (
               <div className="form-error-banner">
                 <span>⚠️</span> Could not send message. Please fill all fields and try again, or email chidimairene@gmail.com
               </div>
             )}
-            
+
             <div className="form-group">
               <label htmlFor="contact-name">Full Name</label>
               <input
