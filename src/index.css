@@ -283,6 +283,45 @@ footer{background:var(--ink);padding:56px 0 28px}
 .fade-up:nth-child(4){transition-delay:0.3s}
 .fade-up:nth-child(5){transition-delay:0.4s}
 
+/* PUBLIC HEALTH EXPERIENCE */
+.ph-experience{background:var(--paper);padding:80px 0;border-bottom:1px solid var(--rule)}
+.ph-experience h2{font-family:var(--ff-head);font-size:clamp(28px,3.5vw,44px);font-weight:600;color:var(--deep);line-height:1.1;margin:12px 0 32px}
+.ph-experience h2 em{color:var(--xgold);font-style:italic}
+.ph-experience-content{display:flex;flex-direction:column;gap:64px}
+.writeup-row{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.writeup-row--reverse{direction:rtl}
+.writeup-row--reverse > *{direction:ltr}
+.writeup-text h3{font-family:var(--ff-head);font-size:26px;font-weight:700;color:var(--deep);margin-bottom:16px}
+.writeup-text p{font-size:16px;color:var(--muted);line-height:1.7}
+.writeup-gallery{position:relative;width:100%}
+
+/* Photo Stack */
+.photo-stack{position:relative;width:300px;height:360px;margin:0 auto}
+.photo-stack-card{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:3px;box-shadow:0 4px 24px rgba(0,0,0,0.12);border:4px solid white;cursor:pointer;transition:transform 0.3s ease, box-shadow 0.3s ease;transform-origin:center center}
+.photo-stack-card:hover{box-shadow:0 12px 32px rgba(0,0,0,0.2);transform:translateY(-8px) scale(1.02) !important;z-index:10 !important}
+.photo-stack-img{width:100%;height:100%;object-fit:cover;border-radius:2px}
+
+/* Scroll Strip */
+.scroll-strip{width:100%;overflow:hidden;position:relative}
+.scroll-strip-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:16px;scrollbar-width:thin;scrollbar-color:var(--rule) transparent}
+.scroll-strip-track::-webkit-scrollbar{height:6px}
+.scroll-strip-track::-webkit-scrollbar-track{background:transparent}
+.scroll-strip-track::-webkit-scrollbar-thumb{background-color:var(--rule);border-radius:3px}
+.scroll-strip-card{flex:0 0 220px;height:260px;border-radius:3px;border:1px solid var(--rule);cursor:pointer;scroll-snap-align:start;overflow:hidden;transition:transform 0.2s;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+.scroll-strip-card:hover{transform:translateY(-4px);box-shadow:0 6px 16px rgba(0,0,0,0.1)}
+.scroll-strip-img{width:100%;height:100%;object-fit:cover;transition:transform 0.3s}
+.scroll-strip-card:hover .scroll-strip-img{transform:scale(1.05)}
+
+/* Lightbox */
+.lightbox-overlay{position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.75);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.3s;padding:20px}
+.lightbox-overlay.open{opacity:1;pointer-events:all}
+.lightbox-close{position:absolute;top:24px;right:32px;background:none;border:none;font-size:40px;cursor:pointer;color:white;line-height:1;transition:color 0.2s}
+.lightbox-close:hover{color:var(--gold)}
+.lightbox-close:focus{outline:2px solid var(--gold);outline-offset:4px}
+.lightbox-content{max-width:90vw;max-height:85vh;position:relative;transform:scale(0.85);transition:transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)}
+.lightbox-overlay.open .lightbox-content{transform:scale(1)}
+.lightbox-img{max-width:100%;max-height:85vh;object-fit:contain;border-radius:3px;box-shadow:0 12px 48px rgba(0,0,0,0.3)}
+
 /* RESPONSIVE */
 @media(max-width:900px){
   .about-grid,.research-inner,.contact-grid,.partner-grid,.mvv-grid{grid-template-columns:1fr;gap:32px}
@@ -295,6 +334,8 @@ footer{background:var(--ink);padding:56px 0 28px}
   .hero{flex-direction:column;align-items:stretch;justify-content:space-between}
   .hero-content{padding-bottom:40px;padding-top:40px}
   .hero-stats{position:relative;bottom:auto;left:auto;right:auto;margin-top:auto}
+  .writeup-row{grid-template-columns:1fr;gap:48px}
+  .writeup-row--reverse{direction:ltr}
 }
 @media(max-width:600px){
   .prog-grid{grid-template-columns:1fr}
@@ -307,4 +348,6 @@ footer{background:var(--ink);padding:56px 0 28px}
   .hero-stats-inner{grid-template-columns:1fr;gap:16px}
   .impact-grid{grid-template-columns:1fr}
   .hero-content{padding-bottom: 40px;}
+  .photo-stack{width:260px;height:310px}
+  .scroll-strip-card{flex:0 0 160px;height:200px}
 }

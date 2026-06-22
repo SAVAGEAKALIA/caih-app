@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import PublicHealthExperience from './components/PublicHealthExperience';
 import Programmes from './components/Programmes';
 import Research from './components/Research';
 import Impact from './components/Impact';
@@ -42,6 +43,7 @@ function App() {
       <Navbar onOpenPartner={openPartnerModal} />
       <Hero onOpenPartner={openPartnerModal} />
       <About />
+      <PublicHealthExperience />
       <Programmes />
       <Research />
       <Impact />
