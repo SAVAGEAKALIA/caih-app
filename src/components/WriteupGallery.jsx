@@ -8,7 +8,7 @@ function PhotoStack({ images, onImageClick }) {
         const offset = (idx - 1) * 12; // -12px, 0px, 12px
         const rotation = (idx - 1) * 4; // -4deg, 0deg, 4deg
         const zIndex = idx + 1;
-        
+
         return (
           <div
             key={idx}
@@ -102,7 +102,7 @@ export default function WriteupGallery({ heading, body, images, reverse }) {
     setActiveImage(null);
   };
 
-  const hasManyImages = images.length > 3;
+  const hasManyImages = images.length > 2;
 
   return (
     <div className={`writeup-row ${reverse ? 'writeup-row--reverse' : ''} fade-up`}>
