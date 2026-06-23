@@ -29,6 +29,9 @@ const writeup2Data = {
     { src: '/images/image_1_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 1' },
     { src: '/images/image_2_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 2' },
     { src: '/images/image_3_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 3' },
+    { src: '/images/image_4_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 3' },
+    { src: '/images/image_5_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 3' },
+    { src: '/images/image_6_wrt3.jpeg', alt: 'Maternal and Child Health Week Consultant Helen Keller experience 3' },
   ],
 };
 
