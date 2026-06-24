@@ -42,6 +42,9 @@ const writeup3Data = {
     { src: '/images/image_1_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 1' },
     { src: '/images/image_2_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 2' },
     { src: '/images/image_3_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 3' },
+    { src: '/images/image_4_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 3' },
+    { src: '/images/image_5_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 3' },
+    { src: '/images/image_6_wrt4.jpeg', alt: 'Facilitator – Society for Family Health (SFH) experience 3' },
   ],
 };
 
