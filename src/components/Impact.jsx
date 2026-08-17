@@ -18,7 +18,7 @@ export default function Impact() {
             </div>
           </div>
           <div className="impact-cell">
-            <div className="impact-val">94%</div>
+            <div className="impact-val">95%</div>
             <div className="impact-lbl">
               ART retention rate achieved in hard-to-reach communities
             </div>
@@ -30,7 +30,7 @@ export default function Impact() {
             </div>
           </div>
           <div className="impact-cell">
-            <div className="impact-val">41→82%</div>
+            <div className="impact-val">41→95%</div>
             <div className="impact-lbl">
               PMTCT uptake improvement within a single programme cycle
             </div>

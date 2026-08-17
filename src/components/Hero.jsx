@@ -37,7 +37,7 @@ export default function Hero({ onOpenPartner }) {
             <div className="hero-stat-lbl">HIV Case Finding Increase<br />Awka North LGA</div>
           </div>
           <div className="hero-stat">
-            <div className="hero-stat-val">94<span>%</span></div>
+            <div className="hero-stat-val">95<span>%</span></div>
             <div className="hero-stat-lbl">ART Retention Rate<br />Hard-to-Reach Communities</div>
           </div>
           <div className="hero-stat">
