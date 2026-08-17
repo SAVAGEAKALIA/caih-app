@@ -102,7 +102,7 @@ export default function Contact() {
                 <div className="contact-icon">✉️</div>
                 <div className="contact-item-text">
                   <div className="contact-item-label">Email</div>
-                  <div className="contact-item-val">caihngor@caih-ng.org</div>
+                  <div className="contact-item-val">COnyeibor@caih-ng.org</div>
                 </div>
               </div>
               <div className="contact-item">
